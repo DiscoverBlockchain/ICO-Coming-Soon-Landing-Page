@@ -924,6 +924,10 @@ header .social-links ul li a:visited {
     color: #FFFFFF;
 }
 
+header .social-links ul li a i {
+    font-size: 32px;
+}
+
 header .social-links ul li a:hover,
 header .social-links ul li a:focus {
     color: #2a455a;
