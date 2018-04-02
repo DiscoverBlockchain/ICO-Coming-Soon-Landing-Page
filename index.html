@@ -109,6 +109,7 @@
                                     #im_service_name_chzn { margin-right:20px; }
                                     #day_chzn, #month_chzn, #year_chzn, #website, #social { margin-top:12px; }
                                     #subscribeToList { clear:both; font-size:14px; font-weight:bold; border:none; color:#fff; cursor:pointer; margin-top:20px; }
+                                    #subscribeToList:hover { background: #2a455a; color: #ffffff !important; }
                                     .signupError { padding:20px 0 0 0; text-align:center; color:red; font-weight:bold; font-size:14px; }
                                     #formContainer { width:320px; margin:0 auto; position:relative; font-family: Arial;}
                                     #formContainer input[type=text] { padding:0px 5px; }
@@ -121,7 +122,6 @@
                                     #formBox { background: #ffffff; border-color:#FAFAF8; }
                                     #formBox .fieldDesc { color:#4e7293; }
                                     #formBox .fieldDesc b { font-size: 1.5em !important; }
-                                    #subscribeToList { background-color: #4e7293; color:#ffffff; }
                                     #signupSubscriberForm { margin-bottom: -20px; }
                                     @media (max-width: 768px) { #formContainer, .rowBlock.emailAddress { width: 260px !important; } }
                                 </style>
@@ -134,10 +134,10 @@
                                                 </div>
                                                 <div class="rowBlock emailAddress" style="width: 320px;">
                                                     <div class="fieldDesc" style="font-family: Geneva, Tahoma, sans-serif; color: rgb(100, 101, 103);"><b>Get latest news and info straight in your inbox</b></div>
-                                                    <input type="text" id="emailAddress" value="" class="" name="email" placeholder="Your Email address" style="width: 320px;font-size: 18px;margin-top: 60px;">
+                                                    <input type="text" id="emailAddress" value="" class="" name="email" placeholder="Your Email address" style="width: 320px;font-size: 18px;margin-top: 40px;border-width: 2px;border-color: #2a455a; border-radius: 0;height: 50px;">
                                                 </div>
                                             </div>
-                                            <input type="submit" id="subscribeToList" value="Subscribe" style="background-color: rgb(78, 114, 147); color: rgb(255, 255, 255);">
+                                            <input type="submit" id="subscribeToList" value="Subscribe" style="border: 2px solid #2a455a; color: #2a455a">
                                             <div class="clearBothDiv" style="clear:both;"></div>
                                         </form>
                                     </div>
