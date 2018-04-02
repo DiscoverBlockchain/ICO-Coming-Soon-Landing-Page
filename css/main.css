@@ -940,9 +940,7 @@ header .social-links ul li a:focus {
     }
 
     header .logo a {
-        width: 90px;
-        height: 78px;
-        background-size: 90px 78px;
+        background-size: 100%;
     }
 
     header .social-links {
@@ -958,9 +956,8 @@ header .social-links ul li a:focus {
     }
 
     header .logo a {
-        width: 80px;
-        height: 70px;
-        background-size: 80px 70px;
+        width: 170px;
+        background-size: 100%;
     }
 
     header .social-links {
@@ -978,9 +975,7 @@ header .social-links ul li a:focus {
     }
 
     header .logo a {
-        width: 70px;
-        height: 61px;
-        background-size: 70px 61px;
+        background-size: 100%;
     }
 
     header .social-links {
@@ -1014,9 +1009,7 @@ header .social-links ul li a:focus {
     }
 
     header .logo a {
-        width: 60px;
-        height: 52px;
-        background-size: 60px 52px;
+        background-size: 100%;
     }
 
     header .social-links ul {
