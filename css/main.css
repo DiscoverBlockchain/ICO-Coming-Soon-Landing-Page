@@ -938,12 +938,12 @@ header .social-links ul li a:focus {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
     header .logo {
-        left: 24px;
+        left: 0;
         margin-top: 42px;
     }
 
     header .logo a {
-        background-size: 100%;
+        background-size: 55%;
     }
 
     header .social-links {
@@ -954,8 +954,10 @@ header .social-links ul li a:focus {
 
 @media only screen and (max-width: 768px) {
     header .logo {
-        left: 51px;
-        margin-top: 36px;
+        margin-top: 170px;
+        justify-content: center;
+        display: flex;
+        position: initial;
     }
 
     header .logo a {
@@ -964,14 +966,14 @@ header .social-links ul li a:focus {
     }
 
     header .social-links {
-        right: 45px;
-        top: 48px;
+        position: initial;
+        margin-top: -200px;
+        text-align: center;
     }
 }
 
 @media only screen and (max-width: 600px) {
     header .logo {
-        margin-top: 100px;
         justify-content: center;
         display: flex;
         position: initial;
@@ -982,7 +984,7 @@ header .social-links ul li a:focus {
     }
 
     header .social-links {
-        margin-top: -120px;
+        margin-top: -230px;
         position: initial;
         display: flex;
         justify-content: center;
@@ -1000,12 +1002,13 @@ header .social-links ul li a:focus {
 
     header .social-links ul li {
         padding: 0 .6rem;
+        line-height: 4;
     }
 }
 
 @media only screen and (max-width: 380px) {
     header .logo {
-        margin-top: 100px;
+        margin-top: 160px;
         justify-content: center;
         display: flex;
         position: initial;
@@ -1015,8 +1018,16 @@ header .social-links ul li a:focus {
         background-size: 100%;
     }
 
+    header .social-links {
+        margin-top: -250px;
+        position: initial;
+        display: flex;
+        justify-content: center;
+    }
+
     header .social-links ul {
         font-size: 2rem;
+        text-align: center;
     }
 
     header .social-links li {
@@ -1064,7 +1075,7 @@ header .social-links ul li a:focus {
 }
 
 #home.home-particles {
-    background: linear-gradient(90deg, rgb(42, 69, 90) 0%, rgb(42, 69, 90) 0%, rgb(78,114,147) 100%, rgb(78,114,147) 100%);
+    background: linear-gradient(90deg, rgb(42, 69, 90) 0%, rgb(42, 69, 90) 0%, rgb(78, 114, 147) 100%, rgb(78, 114, 147) 100%);
     overflow: hidden;
 }
 
@@ -1857,7 +1868,7 @@ footer {
 }
 
 footer .social-wrap {
-    background: linear-gradient(90deg, rgb(42, 69, 90) 0%, rgb(42, 69, 90) 0%, rgb(78,114,147) 100%, rgb(78,114,147) 100%);
+    background: linear-gradient(90deg, rgb(42, 69, 90) 0%, rgb(42, 69, 90) 0%, rgb(78, 114, 147) 100%, rgb(78, 114, 147) 100%);
 }
 
 footer .footer-social-list {
