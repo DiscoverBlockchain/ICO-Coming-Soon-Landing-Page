@@ -938,17 +938,20 @@ header .social-links ul li a:focus {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
     header .logo {
-        left: 0;
-        margin-top: 42px;
+        margin-top: 170px;
+        justify-content: center;
+        display: flex;
+        position: initial;
     }
 
     header .logo a {
-        background-size: 55%;
+        background-size: 100%;
     }
 
     header .social-links {
-        right: 18px;
-        top: 54px;
+        position: initial;
+        margin-top: -200px;
+        text-align: center;
     }
 }
 
@@ -984,7 +987,7 @@ header .social-links ul li a:focus {
     }
 
     header .social-links {
-        margin-top: -230px;
+        margin-top: -250px;
         position: initial;
         display: flex;
         justify-content: center;
