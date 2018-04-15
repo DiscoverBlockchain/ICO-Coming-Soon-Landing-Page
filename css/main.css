@@ -1078,7 +1078,7 @@ header .social-links ul li a:focus {
 }
 
 #home.home-particles {
-    background: linear-gradient(90deg, rgb(42, 69, 90) 0%, rgb(42, 69, 90) 0%, rgb(78, 114, 147) 100%, rgb(78, 114, 147) 100%);
+    background: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%);
     overflow: hidden;
 }
 
@@ -1871,7 +1871,7 @@ footer {
 }
 
 footer .social-wrap {
-    background: linear-gradient(90deg, rgb(42, 69, 90) 0%, rgb(42, 69, 90) 0%, rgb(78, 114, 147) 100%, rgb(78, 114, 147) 100%);
+    background: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%);
 }
 
 footer .footer-social-list {
