@@ -924,7 +924,7 @@ header .social-links ul li a:visited {
 }
 
 header .social-links ul li a i {
-    font-size: 32px;
+    font-size: 30px;
 }
 
 header .social-links ul li a:hover,
@@ -2049,6 +2049,13 @@ footer .back-to-top a i {
 
     footer .footer-social-list li span {
         display: none;
+    }
+
+    .main-content-tablecell {
+        display: table-cell;
+        vertical-align: initial;
+        z-index: 700;
+        padding-top: 250px;
     }
 }
 
