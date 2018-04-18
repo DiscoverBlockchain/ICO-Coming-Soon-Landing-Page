@@ -143,7 +143,7 @@
     /*----------------------------------------------------*/
     /* Final Countdown Settings
     ------------------------------------------------------ */
-    var finalDate = '2018/04/19';
+    var finalDate = '2018/05/01';
     $('div#counter').countdown(finalDate)
         .on('update.countdown', function (event) {
             $(this).html(event.strftime('<div class=\"half\">' +
