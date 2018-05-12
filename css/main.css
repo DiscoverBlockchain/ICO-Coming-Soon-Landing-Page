@@ -397,7 +397,7 @@ img.pull-left {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #2a455a;
+    background: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%);
     z-index: 800;
     height: 100%;
     width: 100%;
